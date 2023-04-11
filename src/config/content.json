@@ -1,0 +1,17 @@
+{
+  "hero-title": "Lisa Anderson",
+  "hero-des": "I’m a Web Developer",
+  "about-name": "Lisa Anderson",
+  "about-age": "24 years",
+  "about-address": "69 Queen St, London, United Kingdom",
+  "about-phoneNumber": "(+38) 469 2344 2364",
+  "about-description": "Hi! I’m lisa, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.",
+  "skills-description": "I'm a Freelancer Front-end Developer with over 12 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people are new experiences.",
+  "contact-address": "69 Queen St, London, United Kingdom",
+  "contact-phoneNumber": ["(+38) 469 2344 2364", "(+38) 469 2344 2361"],
+  "contact-emailAddress": ["example@gmail.com", "info@example.com"],
+  "contact-instagramAddress": "https://www.instagram.com/example/",
+  "contact-telegramAddress": "https://telegram.me/example",
+  "contact-twitterAddress": "https://twitter.com/example",
+  "contact-githubAddress": "https://github.com/example/"
+}

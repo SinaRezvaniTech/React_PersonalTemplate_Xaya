@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//Color Mods (you can change colors )
+:root {
+  --bg-color: rgb(254, 251, 241);
+  --primary-color: #fca311;
+  --secondary-color: #ab256c;
+}
+.orange-mode {
+  --bg-color: rgb(254, 251, 241);
+  --primary-color: #fca311;
+  --secondary-color: #ab256c;
+}
+
+.red-mode {
+  --bg-color: rgb(254, 241, 241);
+  --primary-color: #ab256c;
+  --secondary-color: #fca311;
+}
+.blue-mode {
+  --bg-color: rgb(241, 242, 254);
+  --primary-color: #2470bb;
+  --secondary-color: #ab26ba;
+}
+.purple-mode {
+  --bg-color: rgb(253, 241, 254);
+  --primary-color: #ab26ba;
+  --secondary-color: #2470bb;
+}
+
+//fonts
+
+@font-face {
+  font-family: 'Alkatra';
+  src: url('./assets/fonts/Alkatra-Bold.woff') format('woff'),
+    url('./assets/fonts/Alkatra-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alkatra';
+  src: url('./assets/fonts/Alkatra-Regular.woff') format('woff'),
+    url('./assets/fonts/Alkatra-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+p {
+  font-weight: normal;
+}
+
+//general styles
+body {
+  font-family: 'Alkatra';
+  padding: 0px !important;
+  scroll-behavior: smooth;
+  background-color: var(--bg-color) !important;
+  overflow: hidden;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 1050px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: rgb(76, 76, 76);
+}
+
+//react slick
+.slick-dots li button:before {
+  font-size: 13px !important;
+  color: var(--secondary-color) !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.85;
+  color: var(--primary-color);
+}
